@@ -2,7 +2,7 @@
     "name": "react-gh-pages",
     "version": "0.1.0",
     "private": true,
-    "homepage": "/",
+    "homepage": "https://vikhil0609.github.io/Troibits_website",
     "dependencies": {
         "animated-number-react": "^0.1.2",
         "file-loader": "^6.0.0",
@@ -21,7 +21,7 @@
         "three-orbitcontrols": "^2.110.3"
     },
     "devDependencies": {
-        "gh-pages": "^1.0.0",
+        "gh-pages": "^1.2.0",
         "react-dev-utils": "^11.0.4",
         "react-scripts": "4.0.3",
         "sass": "^1.44.0"
@@ -30,6 +30,8 @@
         "babel-jest": "24.7.1"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
