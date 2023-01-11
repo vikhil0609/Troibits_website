@@ -52,6 +52,7 @@
 }
 .arrow-part{
   margin-top: 10%;
+  display : flex
 }
 
 .arrow-part img{
@@ -105,11 +106,15 @@
   font-weight: bold;
   cursor: pointer;
 }
+.play_image {
+  display: flex;
+}
 .play_image img {
   margin-top: 10%;
   margin-right: 10%;
   width: 8%;
   filter: brightness(0) invert(1);
+  display: flex;
 }
 .yolo-content .right-app .app-content-item.active {
   border-left: 2px solid #0061d0;
@@ -308,8 +313,9 @@
   .arrow-part img{
     max-width: 25px;
   }
-  .arrow-part{
-    padding-right: 10px;
+  .arrow-part img{
+    margin-left: auto;
+  margin-right: auto;
   }
 }
 
@@ -334,7 +340,7 @@
     text-align: center;
   }
   .yolo-content .center-img .yolo-phone-img{
-    left: 50%;
+    left: 35%;
     width: 120%;
   }
 }

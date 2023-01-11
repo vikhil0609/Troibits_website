@@ -86,7 +86,8 @@
   position: absolute;
   border: 1px solid #0061d0;
   background-color: #0061d0;
-  height: 40px;
+  height: 50px;
+  margin-top: 5px;
   left: -24px;
 }
 
@@ -132,10 +133,10 @@
 .description {
   opacity: 1;
   font-size: 0.6em;
-  padding-top: 0%;
+  /* padding-top: 10%; */
   text-align: left;
   color:white;
-  margin-top: 25%;
+  margin-top: 80px;
 }
 
 @media screen and (max-width: 991px) and (min-width: 530px) {
@@ -226,9 +227,10 @@
       opacity: 1;
       color: grey;
       font-size: 0.6em;
-      padding-top: 0%;
+      padding-top: 10%;
       text-align: left;
       margin-top: 25%;
+      /* margin-top: 100px; */
   }
 
   .services
