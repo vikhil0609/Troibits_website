@@ -2,7 +2,6 @@
     "name": "react-gh-pages",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://vikhil0609.github.io/Troibits_website",
     "dependencies": {
         "animated-number-react": "^0.1.2",
         "file-loader": "^6.0.0",
