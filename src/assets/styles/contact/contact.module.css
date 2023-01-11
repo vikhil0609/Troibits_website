@@ -1,0 +1,97 @@
+#heading {
+  margin-left: 12%;
+  margin-right: 13%;
+  margin-top: 15%;
+}
+
+.col h1 {
+  font-size: 3em;
+}
+
+.contactRect {
+  height: 3px;
+  width: 80px;
+  background-color: #0a5de9;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#contactDesign {
+  color: #969696;
+  margin-right: 20%;
+  font-size: 1.1em;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+#contactlast {
+  margin-top: 0px;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 5%;
+}
+#contactlast img {
+  display: block;
+  padding-bottom: 1%;
+}
+
+#contactlast label {
+  color: white;
+  font-size: 1em;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
+
+#contactlast :hover {
+  transition: 1s;
+  color: #0a5de9;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  #heading {
+    margin-left: 3%;
+  }
+  .col h1 {
+    font-size: 2.5em;
+  }
+  #contactDesign {
+    font-size: 0.9625em;
+  }
+  #contactlast {
+    margin-top: 84px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #contactDesign {
+    margin-right: 10%;
+    margin-left: 0;
+    font-size: 1em;
+  }
+  #contactDesign br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  #heading {
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: 25%;
+  }
+  .col h1 {
+    font-size: 2.5em;
+  }
+
+  #contactDesign {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #heading {
+    margin-left: 8%;
+    margin-top: 30%;
+  }
+}

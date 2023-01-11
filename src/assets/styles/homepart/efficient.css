@@ -1,0 +1,138 @@
+.efficient {
+  padding: 5% 8% 3%;
+  display: flex;
+  justify-content: space-between;
+  height: 85vh;
+}
+.left-head {
+  padding-bottom: 10%;
+  color: #007bff;
+}
+
+.mid-head {
+  padding-bottom: 5%;
+  color: #007bff;
+}
+.mid-mid h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.left-SubText {
+  padding-bottom: 10%;
+  font-size: 1em;
+}
+.partnerLogo {
+  max-width: 15%;
+  margin-right: 15px;
+}
+
+.efficient-vrline {
+  width: 1px;
+  height: 230px;
+  background: white;
+  margin-top: 3%;
+}
+
+.efficient-mid {
+  margin-left: 10%;
+}
+
+.mid-subText p {
+  font-size: 1em;
+  color: grey;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  margin-right: 25%;
+}
+
+.efficient-mid button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 30px;
+}
+
+.efficient-mid button:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: black;
+}
+
+.efficient-end {
+  margin-top: 4%;
+  width: 70%;
+}
+
+.end-subText {
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 20%;
+  line-height: 35px;
+}
+
+.end-head strong span {
+  color: #007bff;
+  font-size: 3em;
+  transition: 1 ease-in-out;
+}
+
+.info {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #0b0b0b;
+}
+
+.info a button {
+  color: #007bff;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-color: #007bff;
+  padding: 10px 50px;
+  margin-top: 30px;
+}
+
+.info a button:hover {
+  transition: 0.5s;
+  color: white;
+  background-color: #007bff;
+}
+
+.notice {
+  width: 350px;
+  bottom: 0;
+  background-color: #0b0b0b;
+  display: flex;
+  height: 50px;
+  position: sticky;
+}
+.notice::after {
+  left: 100%;
+  bottom: 0;
+  height: 100px;
+  border-bottom-color: #0b0b0b;
+}
+
+@media only screen and (max-width: 700px) {
+.efficient {
+    display: flex;
+    flex-flow: column;
+    width: fit-content;
+    height: fit-content;
+  }
+  .efficient-vrline{
+    display: none;
+  }
+  .efficient-mid{
+    margin-left: 0px;
+  }
+  .left-SubText{
+    padding-bottom: 0px;
+  }
+  .efficient-left{
+    margin-bottom: 40px;
+  }
+  .mid-subText p{
+    margin-right: 5%;
+  }
+}

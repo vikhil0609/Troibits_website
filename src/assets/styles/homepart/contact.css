@@ -1,0 +1,155 @@
+.contact {
+    width: 100%;
+    height: 860px;
+    background-color: #171717;
+    position: relative;
+}
+
+.contact .contact-part{
+    float: left;
+    width: 50%;
+}
+.contact .left-info .title{
+    font-size: 64px;
+}
+.contact .left-info .contact-row{
+    margin-top: 80px;
+    height: 80px;
+}
+.contact .left-info .contact-item{
+    float: left;
+    width: 50%;
+}
+.contact .left-info .contact-item .info-title{
+    font-size: 18px;
+    color: #666666;
+}
+.contact .left-info .contact-item .info-detail{
+    margin-top: 20px;
+    font-size: 20px;
+    width: calc(100% - 50px);
+}
+.contact .left-info .contact-item .info-detail img{
+    width: 30px;
+    margin-right: 25px;
+    opacity: 0.7;
+}
+.contact .left-info .map-notice{
+    margin-top: 160px;
+    font-size: 22px;
+}
+.contact .left-info .map-notice .map-string{
+    float: left;
+}
+.contact .left-info .map-notice .down-img{
+    float: left;
+    margin-left: 20px;
+    width: 35px;
+    margin-top: -5px;
+}
+.contact .left-info .map-notice .down-img img{
+    width: 35px;
+}
+
+.contact .right-touch{
+    margin-top: 20px;
+}
+.contact .right-touch .title{
+    font-size: 24px;
+}
+.contact .right-touch .touch-row{
+    margin-top: 80px;
+    height: 60px;
+}
+.contact .right-touch .touch-row input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    outline: none;
+    margin-right: 40px;
+}
+.contact .right-touch .touch-row.col-2 input{
+    width: calc(50% - 40px);
+}
+.contact .right-touch .touch-row.col-1 input{
+    width: calc(100% - 40px);
+}
+.contact .right-touch .touch-submit{
+    margin-top: 30px;
+    text-align: right;
+    margin-right: 40px;
+}
+.contact .right-touch .touch-submit button{
+    width: 200px;
+    height: 60px;
+    background-color: #0072FF;
+    border: none;
+    font-size: 24px;
+    color: white;
+    /* box-shadow: -10px 10px #132843; */
+}
+.contact .right-touch .map-notice{
+    display: none;
+    margin-top: 40px;
+}
+.contact .right-touch .map-notice .map-string{
+    float: left;
+    font-size: 14px;
+    margin-left: calc(50% - 70px);
+}
+.contact .right-touch .map-notice .down-img{
+    float: left;
+    margin-left: 10px;
+    width: 20px;
+}
+.contact .right-touch .map-notice .down-img img{
+    width: 100%;
+}
+
+.contact.port {height: 760px;}
+.contact.port .contact-part { width: 100%; }
+.contact.port .left-info .title {font-size: 32px; text-align: center;}
+.contact.port .left-info .contact-lists {margin-top: 40px;}
+.contact.port .left-info .contact-row {margin-top: 0px;}
+.contact.port .left-info .contact-row .contact-left-item{width: 65%;}
+.contact.port .left-info .contact-row .contact-right-item{width: 35%;}
+.contact.port .left-info .contact-row .contact-item .info-title{ font-size: 12px; }
+.contact.port .left-info .contact-row .contact-item .info-detail {font-size: 13px; width: 95%; margin-top: 10px;}
+.contact.port .left-info .contact-row .contact-right-item img{width: 20px ; margin-right: 6px;}
+.contact.port .left-info .map-notice {display: none;}
+.contact.port .right-touch {margin-top: 30px;}
+.contact.port .right-touch .title {text-align: center; font-size: 20px;}
+.contact.port .right-touch .touch-row {margin-top: 30px; height: 30px;}
+.contact.port .right-touch .touch-row input {font-size: 12px; width: calc(50% - 10px); margin-right: 0;}
+.contact.port .right-touch .touch-row :nth-child(2) {margin-left: 20px;}
+.contact.port .right-touch .touch-row.col-1 input{width: 100%;}
+.contact.port .right-touch .touch-submit {margin-top: 20px; margin-right: 0; text-align: center;}
+.contact.port .right-touch .touch-submit button {width: 120px; height: 38px; font-size: 14px;}
+.contact.port .right-touch .map-notice{
+    display: block;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .contact .left-info .contact-item .info-detail img { margin-right: 10px; }
+}
+/* @media only screen and (max-width: 960px) {
+    .contact {height: 1000px;}
+    .contact .left-info .title {font-size: 58px;}
+    .contact .contact-part { width: 100%; }
+    .contact .left-info .contact-row {margin-top: 40px;}
+    .contact .left-info .map-notice {display: none;}
+    .contact .right-touch {margin-top: 60px;}
+    .contact .right-touch .touch-row {margin-top: 20px;}
+    .contact .right-touch .touch-submit {margin-top: 0px;}
+}
+@media only screen and (max-width: 510px) {
+    .contact {height: 1060px;}
+    .contact .left-info .title {font-size: 44px;}
+    .contact .left-info .contact-row {margin-top: 20px;}
+    .contact .left-info .contact-row .contact-item{width: 100%; margin-top: 20px;}
+    .contact .left-info .contact-item .info-detail {margin-top: 10px;}
+    .contact .right-touch .touch-row.col-2 input {width: calc(100% - 40px);}
+    .contact .right-touch .touch-row.col-2 input:nth-child(2) {margin-top: 20px;}
+} */

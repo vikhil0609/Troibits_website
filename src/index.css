@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.main-wrap {
+  flex-direction: column;
+}
+
+/* .Main-footer {
+  margin-top: 10%;
+  margin-bottom: 0%;
+} */
+
+@media screen and (max-width: 450px) {
+  .Main-footer {
+    margin-top: 40%;
+  }
+}

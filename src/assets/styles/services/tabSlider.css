@@ -1,0 +1,116 @@
+.tab-slider {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #121212;
+  z-index: 990;
+}
+
+.fixe-slider {
+  position: fixed;
+  top: 0px;
+}
+
+.slider-static {
+  position: relative;
+}
+
+.tab-slider .carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+.tab-slider .carousel .carousel-inner {
+  height: 100px;
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.tab-list-fixed {
+  position: fixed;
+  top: 10px;
+  left: -3px;
+  z-index: 99;
+  background: #121212;
+}
+
+.static {
+  position: static;
+}
+.tab-slider-item {
+  display: none;
+  width: 100%;
+}
+
+.tab-slider .carousel .carousel-inner .active {
+  height: 60px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tab-slider .carousel .carousel-inner .tab-slider-item span {
+  text-decoration: none;
+  width: 30%;
+  margin: auto 0;
+  text-align: center;
+
+  min-height: 40px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.tab-slider-item .active {
+  border-bottom: 2px solid #0a5de9;
+  color: #0a5de9;
+}
+
+.tab-slider .carousel-control-prev,
+.tab-slider .carousel-control-next {
+  cursor: pointer;
+  width: 5%;
+  top: -10px;
+}
+
+.tab-slider .carousel-control-prev .carousel-control-prev-icon,
+.tab-slider .carousel-control-next .carousel-control-next-icon {
+  width: 35px;
+  height: 35px;
+  color: #0a5de9;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 880px) {
+  .fixe-slider {
+    top: -50px;
+    z-index: 1000;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .tab-slider .carousel {
+    width: 100%;
+  }
+  .tab-slider .carousel-control-prev .carousel-control-prev-icon,
+  .tab-slider .carousel-control-next .carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .tab-slider .carousel {
+    width: 100%;
+  }
+  .tab-slider .carousel-control-prev .carousel-control-prev-icon,
+  .tab-slider .carousel-control-next .carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .tab-slider-item span {
+    font-size: 14px;
+  }
+}

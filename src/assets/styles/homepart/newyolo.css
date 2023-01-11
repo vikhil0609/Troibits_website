@@ -1,0 +1,33 @@
+.main {
+  padding: 10%;
+  background-color: black;
+}
+.main .main-container {
+  display: flex;
+}
+.main .main-container .main-description .description-header-sub {
+  margin-bottom: 1%;
+  font-size: 1.2em;
+}
+
+.main .main-container .main-description .description-header {
+  margin-bottom: 3%;
+  font-size: 3em;
+}
+.main .main-container .main-description .description-subtext {
+  margin-bottom: 5%;
+  color: #808080;
+  font-size: 1.2em;
+}
+
+.main .main-container .main-image img {
+  float: right;
+  filter: grayscale(100%);
+  opacity: 0.3;
+  transition: all 1s;
+}
+
+.main .main-container .main-image img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}

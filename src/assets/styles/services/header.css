@@ -1,0 +1,103 @@
+.head {
+  flex-direction: column;
+  position: relative;
+  min-height: 200px;
+  margin-top: 15%;
+  margin-bottom: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.head .col1 h1 {
+  font-size: 3em;
+}
+
+.head .col1 h3 {
+  font-size: 1.05em;
+  color: grey;
+  font-weight: bold;
+  margin: 0;
+  line-height: 140%;
+}
+
+@media only screen and (max-width: 1160px) {
+  .head .col1 h1 {
+    font-size: 2.5em;
+  }
+  .head .col1 h3 {
+    font-size: 1em;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .head .col1 h1 {
+    font-size: 2.5em;
+  }
+  .head .col1 h3 {
+    font-size: 1em;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .head {
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .head .col1 h1 {
+    font-size: 2.4em;
+  }
+  .head .col1 h3 {
+    font-size: 0.9em;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .head {
+    margin-top: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .head .col1 h1 {
+    font-size: 1.9em;
+    padding-bottom: 0px;
+  }
+  .head .col1 h3 {
+    font-size: 0.9em;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .head {
+    margin-left: 1%;
+    margin-right: 2%;
+  }
+  .head .col1 h1 {
+    font-size: 2em;
+  }
+  .head .col1 h3 {
+    font-size: 0.8em;
+    padding: 0% 5%;
+  }
+
+  .head .col1 h1 span {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .head {
+    margin-left: 1%;
+    margin-right: 2%;
+  }
+  .head .col1 h1 {
+    font-size: 1.5em;
+  }
+  .head {
+    margin-top: 100px;
+  }
+}

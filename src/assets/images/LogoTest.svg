@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1658" viewBox="0 0 1920 1658">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 176 164">
+      <image width="176" height="164" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+    <filter id="Ellipse_1" x="1281.5" y="101.5" width="21" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#82c6d1" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Blog_15">
+      <rect width="1920" height="1658"/>
+    </clipPath>
+  </defs>
+  <g id="Blog_15" data-name="Blog – 15" clip-path="url(#clip-Blog_15)">
+    <rect id="Rectangle_275" data-name="Rectangle 275" width="1920" height="11222" fill="#0c0c0c"/>
+    <rect id="logo-10" width="62" height="59" rx="29.5" transform="translate(114 53)" fill="url(#pattern)"/>
+    <text id="Troibits" transform="translate(194 98)" fill="#fff" font-size="46" font-family="FuturaPT-Light, Futura PT" font-weight="300" letter-spacing="0.05em"><tspan x="0" y="0">Troibits</tspan></text>
+    <text id="Services" transform="translate(1245 93)" fill="#dfdfdf" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Services</tspan></text>
+    <text id="Home" transform="translate(1135 93)" fill="#dfdfdf" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Home</tspan></text>
+    <text id="About" transform="translate(1382 93)" fill="#dfdfdf" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">About</tspan></text>
+    <text id="Portfolio" transform="translate(1492 93)" fill="#dfdfdf" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Portfolio</tspan></text>
+    <text id="Blog" transform="translate(1627 93)" fill="#dfdfdf" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Blog</tspan></text>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 4)">
+      <text id="Contact" transform="translate(1721 89)" fill="#dfdfdf" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Contact</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="3" cy="3" r="3" transform="translate(1289 106)" fill="#0072ff"/>
+    </g>
+    <text id="Startup_Accelerator" data-name="Startup Accelerator" transform="translate(319 779)" fill="#0a5de9" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Startup Accelerator</tspan></text>
+    <text id="Product_Design" data-name="Product Design" transform="translate(319 974)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Product Design</tspan></text>
+    <text id="Mobile_App_and_Game_Development" data-name="Mobile App and 
+Game Development" transform="translate(319 1055)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Mobile App and </tspan><tspan x="0" y="30">Game Development</tspan></text>
+    <text id="Web_Development_" data-name="Web Development " transform="translate(319 1166)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Web Development </tspan></text>
+    <text id="Software_Maintenance" data-name="Software Maintenance" transform="translate(319 1550)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Software Maintenance</tspan></text>
+    <text id="Growth_and_Digital_Marketing" data-name="Growth and Digital
+Marketing" transform="translate(319 1440)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Growth and Digital</tspan><tspan x="0" y="30">Marketing</tspan></text>
+    <text id="IOT" transform="translate(319 1358)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">IOT</tspan></text>
+    <text id="Enterprise_App_Development" data-name="Enterprise App
+Development" transform="translate(319 1247)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Enterprise App</tspan><tspan x="0" y="30">Development</tspan></text>
+    <line id="Line_85" data-name="Line 85" y2="774" transform="translate(280.5 771.5)" fill="none" stroke="#fff" stroke-width="1.25"/>
+    <line id="Line_86" data-name="Line 86" y2="774" transform="translate(280.5 771.5)" fill="none" stroke="#7e7c7c" stroke-width="1.5"/>
+    <g id="Ellipse_1825" data-name="Ellipse 1825" transform="translate(273 957)" fill="#0c0c0c" stroke="#fbfbfb" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_1825-2" data-name="Ellipse 1825" transform="translate(273 1055)" fill="#0c0c0c" stroke="#fbfbfb" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_1825-3" data-name="Ellipse 1825" transform="translate(273 1151)" fill="#0c0c0c" stroke="#fbfbfb" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_1825-4" data-name="Ellipse 1825" transform="translate(273 1247)" fill="#0c0c0c" stroke="#fbfbfb" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_1825-5" data-name="Ellipse 1825" transform="translate(273 1343)" fill="#0c0c0c" stroke="#fbfbfb" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_1825-6" data-name="Ellipse 1825" transform="translate(273 1440)" fill="#0c0c0c" stroke="#fbfbfb" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_1825-7" data-name="Ellipse 1825" transform="translate(273 1535)" fill="#0c0c0c" stroke="#fbfbfb" stroke-width="1">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+    </g>
+    <circle id="Ellipse_1825-8" data-name="Ellipse 1825" cx="8.5" cy="8.5" r="8.5" transform="translate(272 762)" fill="#0a5de9"/>
+    <text id="Startup_Accelerator_" data-name="Startup 
+Accelerator " transform="translate(840 811)" fill="#fbfbfb" font-size="72" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Startup </tspan><tspan x="0" y="87">Accelerator </tspan></text>
+    <g id="Group_1005" data-name="Group 1005" transform="translate(7)">
+      <text id="Legal_Support" data-name="Legal Support" transform="translate(1422 1395)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Legal Support</tspan></text>
+      <text id="Product_Research" data-name="Product Research" transform="translate(1422 1323)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Product Research</tspan></text>
+    </g>
+    <g id="Group_1003" data-name="Group 1003">
+      <text id="Company_Creation" data-name="Company Creation" transform="translate(840 1395)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Company Creation</tspan></text>
+      <text id="Strategy_Planning" data-name="Strategy Planning" transform="translate(840 1323)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Strategy Planning</tspan></text>
+      <text id="Infrastructure_Setup" data-name="Infrastructure Setup" transform="translate(840 1467)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Infrastructure Setup</tspan></text>
+    </g>
+    <text id="Know_more" data-name="Know more" transform="translate(840 1551)" fill="#0a5de9" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Know more</tspan></text>
+    <g id="Group_1004" data-name="Group 1004" transform="translate(21)">
+      <text id="Funding_Support" data-name="Funding Support" transform="translate(1131 1395)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Funding Support</tspan></text>
+      <text id="Market_Analysis" data-name="Market Analysis" transform="translate(1131 1323)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Market Analysis</tspan></text>
+      <text id="HR_Support" data-name="HR Support" transform="translate(1131 1467)" fill="#fbfbfb" font-size="25" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">HR Support</tspan></text>
+    </g>
+    <g id="Group_980" data-name="Group 980" transform="translate(-6)">
+      <text id="Services_for_your_every_need" data-name="Services for your every need" transform="translate(505 357)" fill="#fff" font-size="70" font-family="ProximaNova-Semibold, Proxima Nova" font-weight="600"><tspan x="0" y="0">Services For Your </tspan><tspan y="0" fill="#0a5de9">Every Need</tspan></text>
+      <text id="Our_design_is_a_key_factor_why_we_are_able_to_create_better_products_as_we_do_a_proper_ideation_research_planning_then_create_something_on_a_blank_piece_of_paper_which_stands_out_and_is_minimal." data-name="Our design is a key factor why we are able to create better products as we do a proper ideation,research, 
+planning then create something on a blank piece of paper which stands out and is minimal." transform="translate(966 449.5)" fill="#fbfbfb" font-size="30" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="-693.6" y="0">Our design is a key factor why we are able to create better products as we do a proper ideation,research, </tspan><tspan x="-594.945" y="37">planning then create something on a blank piece of paper which stands out and is minimal.</tspan></text>
+    </g>
+    <text id="Lorem_Ipsum_Dolor_Sit_Amet_Consectetuer_Adipiscing_Elit_Sed_Diam_Nonummy_Nibh_Euismod_Tincidunt_Lorem_Ipsum_Dolor_Sit_Amet_Consectetuer_Adipiscing_Elit_Lorem_Ipsum_Dolor_Sit_Amet_Consectetuer_Adipiscing_Elit_Sed_Diam_Nonummy_Nibh_Euismod_Tincidunt_" data-name="Lorem Ipsum Dolor Sit Amet, Consectetuer Adipiscing Elit, Sed Diam 
+Nonummy Nibh Euismod Tincidunt Lorem Ipsum Dolor Sit Amet, 
+Consectetuer Adipiscing Elit Lorem Ipsum Dolor Sit Amet, Consectetuer 
+Adipiscing Elit, Sed Diam Nonummy Nibh Euismod Tincidunt " transform="translate(840 1032.5)" fill="#707070" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Lorem Ipsum Dolor Sit Amet, Consectetuer Adipiscing Elit, Sed Diam </tspan><tspan x="0" y="30">Nonummy Nibh Euismod Tincidunt Lorem Ipsum Dolor Sit Amet, </tspan><tspan x="0" y="60">Consectetuer Adipiscing Elit Lorem Ipsum Dolor Sit Amet, Consectetuer </tspan><tspan x="0" y="90">Adipiscing Elit, Sed Diam Nonummy Nibh Euismod Tincidunt Lorem Ipsum </tspan><tspan x="0" y="120">Dolor Sit Amet Nonummy Nibh Euismod Tincidunt Lorem Ipsum Dolor Sit </tspan><tspan x="0" y="150">Amet, Consectetuer Adipiscing Elit olor Sit Amet Nonummy Nibh Euismod </tspan><tspan x="0" y="180">Tincidunt Lorem Ipsum Dolor Sit Amet, Consectetuer Adipiscing Elit </tspan></text>
+    <rect id="Rectangle_406" data-name="Rectangle 406" width="179" height="6" rx="3" transform="translate(840 938)" fill="#0a5de9"/>
+    <g id="arrow" transform="translate(877.903 1539)">
+      <path id="Path_37272" data-name="Path 37272" d="M103.971,6.832l-5.346,5.346a.871.871,0,1,1-1.231-1.231l4.73-4.73-4.73-4.73A.871.871,0,0,1,98.625.255L103.971,5.6a.871.871,0,0,1,0,1.231Z" transform="translate(0)" fill="#0a5de9"/>
+    </g>
+    <g id="launch" transform="translate(1385 739.967)">
+      <path id="Path_37273" data-name="Path 37273" d="M151.2,235.581h-9.764V153.746a9.465,9.465,0,0,0-9.455-9.455H103.149a2.248,2.248,0,1,0,0,4.5h28.827a4.965,4.965,0,0,1,4.959,4.959v81.836h-7.693a18.889,18.889,0,0,0,.177-2.557,19.086,19.086,0,0,0-19.064-19.064,18.8,18.8,0,0,0-4.216.481,14.215,14.215,0,0,0-12.6-7.689,13.877,13.877,0,0,0-5.032.936,11.858,11.858,0,0,0-23.57,0,13.877,13.877,0,0,0-5.032-.936,14.215,14.215,0,0,0-12.6,7.689,18.785,18.785,0,0,0-4.216-.481,19.086,19.086,0,0,0-19.064,19.064,18.883,18.883,0,0,0,.177,2.557H16.507V153.746a4.965,4.965,0,0,1,4.959-4.959H50.3a2.248,2.248,0,1,0,0-4.5H21.467a9.465,9.465,0,0,0-9.455,9.455v81.836H2.248A2.248,2.248,0,0,0,0,237.829v4.8a7.06,7.06,0,0,0,7.052,7.052H146.39a7.06,7.06,0,0,0,7.052-7.052v-4.8A2.248,2.248,0,0,0,151.2,235.581Zm-2.248,7.053a2.56,2.56,0,0,1-2.557,2.557H7.052A2.56,2.56,0,0,1,4.5,242.634v-2.557H33.478a2.248,2.248,0,0,0,0-4.5H28.749a14.428,14.428,0,0,1-.23-2.557A14.535,14.535,0,0,1,47.85,219.269a2.248,2.248,0,0,0,2.863-1.4,9.741,9.741,0,0,1,9.192-6.624,9.613,9.613,0,0,1,6.241,2.326,2.248,2.248,0,0,0,3.591-2.392A7.222,7.222,0,0,1,69.36,209a7.362,7.362,0,1,1,14.723,0,7.222,7.222,0,0,1-.377,2.182,2.248,2.248,0,0,0,3.591,2.392,9.616,9.616,0,0,1,6.241-2.326,9.741,9.741,0,0,1,9.192,6.624,2.248,2.248,0,0,0,2.863,1.4,14.545,14.545,0,0,1,19.1,16.312h-81.6a2.248,2.248,0,1,0,0,4.5H148.947Z" transform="translate(0 -89.82)" fill="#fff"/>
+      <path id="Path_37274" data-name="Path 37274" d="M154.5,82.1a9.473,9.473,0,0,0-2.191,6.053v7a2.248,2.248,0,0,0,3.352,1.958l16.007-9.032q.915,1.67,1.94,3.285l-2.012,8.049a2.248,2.248,0,0,0,2.181,2.793h19.219a2.248,2.248,0,0,0,2.181-2.793l-2.012-8.049q1.024-1.613,1.94-3.285l16.007,9.032a2.248,2.248,0,0,0,3.352-1.958v-7a9.473,9.473,0,0,0-2.191-6.053L201.6,69.3a61.34,61.34,0,0,0,.85-10.182,60.323,60.323,0,0,0-4.717-23.549,57.9,57.9,0,0,0-12.771-18.893,2.247,2.247,0,0,0-3.154,0,57.891,57.891,0,0,0-12.771,18.893,60.324,60.324,0,0,0-4.717,23.549,61.346,61.346,0,0,0,.847,10.167Zm2.3,9.2V88.156a4.969,4.969,0,0,1,1.149-3.175l8.425-10.11a59.594,59.594,0,0,0,3.277,9.184Zm19.85,6.406,1.278-5.114h10.9l1.279,5.114Zm32.162-12.732a4.969,4.969,0,0,1,1.149,3.175v3.151l-12.852-7.252a59.617,59.617,0,0,0,3.277-9.184ZM183.383,21.5a53.677,53.677,0,0,1,9.254,13.748H174.129A53.677,53.677,0,0,1,183.383,21.5ZM172.256,39.747H194.51a56.326,56.326,0,0,1,3.442,19.374A55.575,55.575,0,0,1,189.9,88.1H176.867a55.575,55.575,0,0,1-8.053-28.983A56.335,56.335,0,0,1,172.256,39.747Z" transform="translate(-106.662)" fill="#fff"/>
+      <path id="Path_37275" data-name="Path 37275" d="M243.361,129.7a9.455,9.455,0,1,0-9.455,9.455A9.465,9.465,0,0,0,243.361,129.7Zm-14.414,0a4.959,4.959,0,1,1,4.959,4.959A4.965,4.965,0,0,1,228.947,129.7Z" transform="translate(-157.185 -72.979)" fill="#0a5de9"/>
+    </g>
+    <text id="Lorem_Ipsum_Dolor_Sit_Amet_Consectetuer_Adipiscing_Elit_Sed_Diam_Nonummy_Nibh_Euismod_Tincidunt_Lorem_Ipsum_Dolor_Sit_Amet_Consectetuer_Adipiscing_Elit_Lorem_Ipsum_Dolor_Sit_Amet_Consectetuer_Adipiscing_Elit_Sed_Diam_Nonummy_Nibh_Euismod_Tincidunt_2" data-name="Lorem Ipsum Dolor Sit Amet, Consectetuer Adipiscing Elit, Sed Diam 
+Nonummy Nibh Euismod Tincidunt Lorem Ipsum Dolor Sit Amet, 
+Consectetuer Adipiscing Elit Lorem Ipsum Dolor Sit Amet, Consectetuer 
+Adipiscing Elit, Sed Diam Nonummy Nibh Euismod Tincidunt " transform="translate(840 1032.5)" fill="#707070" font-size="25" font-family="ProximaNova-Regular, Proxima Nova"><tspan x="0" y="0">Lorem Ipsum Dolor Sit Amet, Consectetuer Adipiscing Elit, Sed Diam </tspan><tspan x="0" y="30">Nonummy Nibh Euismod Tincidunt Lorem Ipsum Dolor Sit Amet, </tspan><tspan x="0" y="60">Consectetuer Adipiscing Elit Lorem Ipsum Dolor Sit Amet, Consectetuer </tspan><tspan x="0" y="90">Adipiscing Elit, Sed Diam Nonummy Nibh Euismod Tincidunt Lorem Ipsum </tspan><tspan x="0" y="120">Dolor Sit Amet Nonummy Nibh Euismod Tincidunt Lorem Ipsum Dolor Sit </tspan><tspan x="0" y="150">Amet, Consectetuer Adipiscing Elit olor Sit Amet Nonummy Nibh Euismod </tspan><tspan x="0" y="180">Tincidunt Lorem Ipsum Dolor Sit Amet, Consectetuer Adipiscing Elit </tspan></text>
+  </g>
+</svg>

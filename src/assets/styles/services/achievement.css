@@ -1,0 +1,680 @@
+.achievement-challenges {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-left: 0%;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.item-main {
+  margin-top: 5%;
+  margin-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-text p {
+  margin-top: 16px;
+  font-size: 1em;
+  color: #808080;
+}
+.item-main .mid div .sub-text {
+  padding-left: 10%;
+  margin-top: -8%;
+  margin-right: 18%;  
+}
+
+.item-main .mid {
+  display: flex;
+  transition: 1s;
+  justify-content: space-around;
+}
+
+.item-main .mid div {
+  padding-top: 5%;
+}
+
+.item-main .mid img {
+  max-width: 40%;
+  margin-left: 5%;
+}
+.item-main .mid div .mid-title {
+  font-size: 1.5em;
+  margin-left: 10%;
+}
+
+.arrow {
+  padding-top: 25%;
+  position: relative;
+}
+
+.arrow img {
+  max-width: 100%;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.achievement-titl h1 {
+  font-size: 3em;
+}
+
+.achievement-title {
+  margin-bottom: 40px;
+}
+
+.achievement-challenges .notice {
+  width: 350px;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.048);
+}
+
+.achievement-challenges .notice::after {
+  left: 85.6%;
+  top: 0.1px;
+  bottom: 0;
+  height: 80px;
+  border-bottom-color: #121212;
+  transform: rotate(180deg);
+}
+
+.project {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project .col:nth-child(2) {
+  margin-top: -80px;
+}
+
+.project h2 {
+  margin-top: 10%;
+  font-size: 2.25em;
+  color: white;
+}
+
+.project h4 {
+  margin-top: 5%;
+  font-size: 1em;
+  line-height: 25px;
+  color: #808080;
+}
+
+.project .explore_more {
+  border: 3px solid #0a5de9;
+  width: 30%;
+  padding: 20px 10px;
+  margin-top: 5%;
+  margin-left: 35%;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(38, 3, 165, 0.19),
+    0 6px 6px rgba(38, 3, 165, 0.23);
+}
+
+.project .explore_more:hover {
+  background-color: #0a5de9;
+  transition: 0.5s;
+}
+
+.project .explore_more:hover .variant {
+  color: white;
+  text-decoration: none;
+}
+
+.client {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.client-title h1 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.client-title {
+  margin-bottom: 100px;
+}
+
+.inner-client {
+  width: 70%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.client-item-box {
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+  width: 720px;
+  margin: auto 0;
+  border: 0 solid;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: rgba(128, 128, 128, 0.148);
+  border-radius: 15px;
+}
+
+.header-client-box {
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50px;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.profile-client {
+  flex-direction: row;
+  width: 45%;
+  margin-left: 5%;
+}
+
+.profile-client img {
+  width: 20%;
+  height: 70%;
+  border: 3px solid gray;
+  border-radius: 50%;
+}
+.profile-info {
+  margin-left: 25px;
+  height: 75px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-info h5 {
+  font-size: 19px;
+  font-weight: bold;
+}
+.profile-info h6 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.company-logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.body-client-box {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.body-client-box .icon-utf {
+  width: 15%;
+  padding-left: 8%;
+}
+
+.body-client-box .icon-utf2 {
+  width: 15%;
+  padding-right: 15%;
+}
+.body-client-box .icon-utf h4,
+.icon-utf2 h4 {
+  font-size: 4vw;
+}
+
+.body-client-box .client-word {
+  width: 100%;
+  padding-top: -2%;
+  font-size: 1.1em;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer-logo-ach {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 140px;
+}
+
+.footer-logo-ach .image {
+  margin-top: 10%;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-logo-ach .image img {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 30px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+}
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .item-main .mid div .sub-text p {
+    font-size: 0.8em;
+  }
+
+  .project .explore_more {
+    border: 3px solid #0a5de9;
+    width: 30%;
+    padding: 20px 10px;
+    margin-top: 5%;
+    margin-left: 35%;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(38, 3, 165, 0.19),
+      0 6px 6px rgba(38, 3, 165, 0.23);
+  }
+  
+  .project .explore_more:hover {
+    background-color: #0a5de9;
+    transition: 0.5s;
+  }
+  
+  .project .explore_more:hover .variant {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .profile-client img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+  }
+
+  .profile-info h5 {
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  .profile-info h6 {
+    font-size: 12px;
+  }
+
+  .body-client-box .client-word p {
+    font-size: 13px;
+  }
+  .client-item-box {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 1012px) {
+  .achievement-titl h1 {
+    font-size: 3em;
+  }
+  .client-item-box {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .project .box {
+    margin-top: 0;
+  }
+  .item-main {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .item-main .mid div .mid-title {
+    font-size: 1em;
+  }
+  .item-main .mid div .mid-sub {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .project .explore_more {
+  border: 3px solid #0a5de9;
+  width: 200px;
+  padding: 20px 10px;
+  margin-top: 5%;
+  margin-left: 32%;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(38, 3, 165, 0.19),
+    0 6px 6px rgba(38, 3, 165, 0.23);
+}
+
+.project .explore_more:hover {
+  background-color: #0a5de9;
+  transition: 0.5s;
+}
+
+.project .explore_more:hover .variant {
+  color: white;
+  text-decoration: none;
+}
+  .achievement-titl h1 {
+    font-size: 2.8em;
+    margin-bottom: 40px;
+  }
+  .project h2 {
+    margin-top: 10%;
+    margin-bottom: 80px;
+    font-size: 2.2em;
+  }
+  .profile-info h5 {
+    font-size: 15px;
+  }
+  .profile-info h6 {
+    font-size: 12px;
+  }
+  .client {
+    width: 100%;
+  }
+
+  .client .carousel {
+    max-height: 150px;
+    width: 100%;
+  }
+
+  .inner-client {
+    max-height: 150px;
+  }
+  .client-item-box {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .profile-info {
+    flex-direction: column;
+    min-width: 250px;
+  }
+
+  .client {
+    margin-top: 80px;
+  }
+  .client-item-box,
+  .carousel-client,
+  .inner-client {
+    height: 140px;
+  }
+
+  .carousel-client .carousel-control-prev,
+  .carousel-client .carousel-control-next {
+    width: 10%;
+    top: 50px;
+  }
+
+  .profile-client img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+
+  .company-logo,
+  .profile-info {
+    margin-top: -10px;
+  }
+  .project h2 {
+    font-size: 2em;
+  }
+  .project h4 {
+    font-size: 1em;
+  }
+
+  .profile-info h5 {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .profile-info h6 {
+    font-size: 14px;
+  }
+
+  .body-client-box .client-word p {
+    font-size: 14px;
+  }
+
+  .footer-logo-ach {
+    width: 75%;
+    margin-top: 0;
+  }
+
+  .item-main .mid div .sub-text p {
+    font-size: 0.7em;
+  }
+
+  .item-main .mid img {
+    max-width: 50%;
+  }
+
+  .item-main .arrow img {
+    margin-top: 130%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .project .explore_more {
+    border: 3px solid #0a5de9;
+    width: 200px;
+    padding: 20px 10px;
+    margin-top: 5%;
+    margin-left: 16%;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(38, 3, 165, 0.19),
+      0 6px 6px rgba(38, 3, 165, 0.23);
+  }
+  
+  .project .explore_more:hover {
+    background-color: #0a5de9;
+    transition: 0.5s;
+  }
+  
+  .project .explore_more:hover .variant {
+    color: white;
+    text-decoration: none;
+  }
+  .achievement-titl h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  .project h2 {
+    font-size: 1.8em;
+  }
+  .project h4 {
+    font-size: 0.8em;
+  }
+  .inner-client {
+    width: 80%;
+  }
+  .footer-logo-ach .image img {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .client-item-box {
+    margin-left: 1%;
+    width: 600px;
+    height: 140px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .project h2 {
+    font-size: 1.5em;
+  }
+
+  .project h4 {
+    margin-top: 10%;
+    font-size: 0.9em;
+  }
+
+  .box {
+    min-width: 120px;
+    width: 150px;
+  }
+
+  .box a {
+    font-size: 14px;
+  }
+  .inner-client {
+    width: 85%;
+    margin-bottom: 10%;
+  }
+  .client-item-box {
+    height: 135px;
+  }
+  .footer-logo-ach .image img {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .achievement-titl {
+    width: 300px;
+    margin: 10px auto;
+  }
+  .client-title h1 {
+    font-size: 2em;
+  }
+  .achievement-titl h1 {
+    font-size: 2.2em;
+  }
+  .profile-client img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  .profile-info {
+    margin-left: 5px;
+    height: 55px;
+  }
+  .client-item-box {
+    height: 135px;
+  }
+
+  .company-logo,
+  .profile-info,
+  .profile-client img {
+    margin-top: -30px;
+  }
+
+  .footer-logo-ach {
+    margin-top: -60px;
+  }
+  .item-main .mid {
+    display: block;
+  }
+  .item-main .mid img {
+    max-width: 70%;
+    margin-left: 15%;
+  }
+
+  .item-main .arrow img {
+    max-width: 150%;
+  }
+
+  .item-main .mid div .mid-title {
+    font-size: 2em;
+  }
+  .item-main .mid div .sub-text .mid-sub {
+    font-size: 1em;
+  }
+  .item-main .mid div .sub-text p {
+    font-size: 0.8em;
+  }
+  .header-client-box {
+    margin-top: 40px;
+  }
+  .body-client-box .client-word p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .client-item-box {
+    height: 130px;
+  }
+  .body-client-box .client-word p {
+    font-size: 11px;
+  }
+  .profile-info h6 {
+    font-size: 11px;
+  }
+}
+.slick-dots {
+  background-color: transparent;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+}
+.slick-dots li button:before {
+  color: grey;
+}
+@media only screen and (max-width: 400px) {
+  .achievement-titl h1 {
+    font-size: 2em;
+  }
+  .client-title h1 {
+    font-size: 1.8em;
+  }
+  .item-main .mid div .mid-title {
+    font-size: 1em;
+  }
+  .item-main .mid div .sub-text .mid-sub {
+    font-size: 0.8em;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .project .explore_more {
+    border: 3px solid #0a5de9;
+    width: 200px;
+    padding: 20px 10px;
+    margin-top: 5%;
+    margin-left: 7%;
+
+  }
+
+  .achievement-titl h1 {
+    font-size: 1.8em;
+  }
+  .project h4 {
+    margin-top: 20%;
+  }
+
+  .company-logo img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  .company-logo img {
+    display: none;
+  }
+}

@@ -1,0 +1,41 @@
+.map {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  position: relative;
+  /* opacity: 0.1; */
+}
+.map div {
+  outline: none;
+}
+.map .gm-style {
+  background-color: black;
+}
+.map .gm-style img {
+  filter: grayscale(100%);
+  opacity: 0.3;
+  /* background-color: black !important; */
+}
+.map .map-marker {
+  width: 20px;
+  height: 20px;
+  background: #0061d0;
+  border-radius: 50%;
+  animation: shadow-pulse 1.5s infinite;
+}
+.map a {
+  display: none !important;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(39, 121, 214, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 70px rgba(30, 127, 238, 0);
+  }
+}
+
+.map.port {
+  height: 350px;
+}

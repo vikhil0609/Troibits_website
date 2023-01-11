@@ -1,0 +1,64 @@
+.drop-message-component {
+  position: relative;
+  margin: auto 0;
+  box-sizing: border-box;
+}
+
+.drop-message-component .box {
+  margin-top: 20px;
+}
+
+.drop-message-component .notice::after {
+  left: 85.6%;
+  top: 0.1px;
+  bottom: 0;
+  height: 80px;
+  border-bottom-color: #121212;
+  transform: rotate(180deg);
+}
+
+.drop-title h1 {
+  font-size: 3em;
+}
+
+.box {
+  width: 300px;
+  height: 60px;
+  border: 3px solid #0a5de9;
+  margin: 0 auto;
+  margin-top: -100px;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(38, 3, 165, 0.19),
+    0 6px 6px rgba(38, 3, 165, 0.23);
+}
+
+.box .variant {
+  font-size: 1.1em;
+  text-align: center;
+  text-decoration: none;
+  margin: auto 0;
+}
+
+.box:hover {
+  transition: 0.5s;
+  background-color: #0a5de9;
+}
+
+.box .variant:hover {
+  transition: 0.5s;
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .drop-title h1 {
+    font-size: 1.5em;
+  }
+  .box {
+    min-width: 120px;
+    width: 150px;
+  }
+
+  .box a {
+    font-size: 14px;
+  }
+}

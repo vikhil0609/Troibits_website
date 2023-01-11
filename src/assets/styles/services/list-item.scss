@@ -1,0 +1,300 @@
+.list-name-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 12%;
+}
+
+.stick {
+  margin-left: 36%;
+}
+
+.list-item {
+  width: 100%;
+  margin: 40px 0;
+  flex-direction: column;
+}
+.header-list {
+  width: 100%;
+  height: 150px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header-list .title,
+.col .icon {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.margin h1 {
+  margin-top: 40px;
+}
+
+.header-list .title h1 {
+  font-size: 2.8em;
+  font-weight: 400;
+  width: 300px;
+  margin-left: 0;
+}
+
+.bara {
+  height: 2px;
+  width: 120px;
+
+  background: #0a5de9;
+}
+
+.header-list .icon {
+  max-width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+#nextgen {
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+.header-list .icon img {
+  max-width: 100%;
+}
+.body-list {
+  width: 100%;
+}
+.body-list p {
+  margin-top: 5%;
+  color: gray;
+  font-size: 1em;
+  width: 100%;
+}
+
+.footer {
+  flex-direction: column;
+}
+
+.footer .nav {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.footer .nav .nav-Link {
+  width: 50%;
+  min-width: 80px;
+  margin-top: 20px;
+  margin-bottom: 1%;
+  padding-left: 10%;
+  font-size: 0.9em;
+  color: #eeeeee;
+  padding-bottom: 0%;
+}
+
+.footer .nav .nav-Link span {
+  padding-bottom: 1%;
+  border-bottom: 1px solid grey;
+  line-height: 48px;
+  width: fit-content;
+  transition: 1.5s;
+}
+
+.footer .nav .nav-Link:hover {
+  text-decoration: none;
+  font-size: 0.95em;
+  color: #0a5de9;
+  span {
+    color: #0a5de9;
+    border-bottom-color: #0a5de9;
+  }
+}
+.footer .know {
+  margin-top: 3.5%;
+}
+
+.footer .know a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #0a5de9;
+}
+
+.footer .know a i {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  color: #0a5de9;
+}
+
+.footer .know a:hover {
+  transition: 1s;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 1030px) {
+  .list-item {
+    margin: 0;
+  }
+  .header-list .col .title h1 {
+    font-size: 2.7em;
+    margin-bottom: 0;
+  }
+
+  .body-list p {
+    font-size: 1em;
+  }
+  .footer .nav .nav-Link {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+
+  .footer .nav .nav-Link:hover {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .list-item {
+    width: 105%;
+    margin: 0 auto;
+  }
+
+  .carou {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .body-list p {
+    font-size: 1em;
+  }
+  .footer .nav .nav-Link {
+    font-size: 0.8em;
+  }
+  .footer .nav .nav-Link :hover {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .body-list p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-list {
+    height: 110px;
+  }
+
+  .header-list .title h1 {
+    font-size: 2em;
+    width: 160px;
+  }
+
+  .header-list .icon img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header-list .icon {
+    padding-bottom: 35px;
+  }
+
+  .footer .nav {
+    justify-content: space-between;
+  }
+  .footer .nav .nav-Link {
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .footer .nav .nav-Link:hover {
+    font-size: 17px;
+  }
+  .footer .nav .nav-Link span {
+    line-height: 10px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .footer .nav .nav-Link {
+    font-size: 0.8em;
+    margin-right: 0px;
+    width: 100%;
+  }
+  .footer .nav .nav-Link span {
+    line-height: 0px;
+  }
+
+  .footer .nav .nav-Link:hover {
+    font-size: 0.97em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    margin-top: 0%;
+  }
+  .list-name-container {
+    margin-right: 1%;
+    margin-left: 3%;
+  }
+  .header-list .title h1 {
+    font-size: 1.5em;
+    width: 120px;
+  }
+
+  .body-list p {
+    font-size: 0.9em;
+    padding-right: 0%;
+    width: 110%;
+  }
+
+  .header-list .icon img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header-list .icon {
+    padding-bottom: 45px;
+  }
+
+  .footer .nav .nav-Link {
+    font-size: 0.8em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header-list {
+    height: 80px;
+  }
+
+  .header-list .title h1 {
+    font-size: 1.3em;
+    width: 100px;
+  }
+
+  .header-list .icon img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .body-list p {
+    font-size: 0.7em;
+  }
+  .footer .nav .nav-Link {
+    font-size: 0.7em;
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .footer .nav .nav-Link :hover {
+    font-size: 0.8em;
+  }
+
+  .header-list .icon {
+    padding-bottom: 35px;
+  }
+}

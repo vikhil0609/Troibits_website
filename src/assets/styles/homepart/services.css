@@ -1,0 +1,318 @@
+.services {
+  width: 100%;
+  position: relative;
+}
+
+.services .content-wrap {
+  background-color: #0b0b0b;
+  width: 100%;
+  padding-right: 2%;
+}
+
+.services .content-wrap .services-content {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.services .content-wrap .services-content .main-title {
+  font-size: 1.97em;
+  padding-top: 2%;
+}
+
+.services .content-wrap .services-content .main-description h6 {
+  line-height: 1.5;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 1em;
+  font-family: "open sans", arial, sans-serif;
+}
+
+.services
+  .content-wrap
+  .services-content
+  .panels
+  .panel-row
+  .panel-item
+  .description {
+  opacity: 0;
+  color: grey;
+  text-align: left;
+}
+
+.services .content-wrap .services-content .panels .panel-row {
+  width: 100%;
+  display: inline-block;
+  margin-left: 2%;
+}
+.services .content-wrap .services-content .panels .panel-row .panel-item {
+  margin-top: 0.5%;
+  height: 200px;
+  text-align: left;
+  font-size: 1.2em;
+  background-color: #1a1a1a;
+  padding-left: 25px;
+  width: 23%;
+  float: left;
+  margin-left: 1%;
+  padding-right: 1%;
+  position: relative;
+}
+
+.services
+  .content-wrap
+  .services-content
+  .panels
+  .panel-row
+  .panel-item
+  .panel-logo
+  img {
+  max-width: 20%;
+  padding-top: 5%;
+}
+
+.services .content-wrap .services-content .panels .panel-row .panel-title {
+  position: absolute;
+  bottom: 12%;
+}
+
+.services
+  .content-wrap
+  .services-content
+  .panels
+  .panel-row
+  .panel-title::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #0061d0;
+  background-color: #0061d0;
+  height: 40px;
+  left: -24px;
+}
+
+
+
+.services .content-wrap .services-content .panels .panel-item:hover {
+  background-color: #0061d0;
+  transition: 1s;
+  border-color: whitesmoke;
+  box-shadow: 0 0 7px #0061d0;
+}
+
+.services
+  .content-wrap
+  .services-content
+  .panels
+  .panel-item:hover
+  .panel-title {
+  transition: 1s;
+  bottom: 36%;
+}
+
+/* .services
+  .content-wrap
+  .services-content
+  .panels
+  .panel-item:hover
+  .description {
+  opacity: 1;
+  color: white;
+  font-size: 0.55em;
+  position: absolute;
+  bottom: 12px;
+  margin-right: 5%;
+} */
+
+.services
+.content-wrap
+.services-content
+.panels
+.panel-row
+.panel-item:hover
+.description {
+  opacity: 1;
+  font-size: 0.6em;
+  padding-top: 0%;
+  text-align: left;
+  color:white;
+  margin-top: 25%;
+}
+
+@media screen and (max-width: 991px) and (min-width: 530px) {
+  .services .content-wrap .services-content .panels .panel-row .panel-item {
+    width: 45%;
+  }
+
+  .services .notice {
+    width: 300px;
+  }
+
+  .services .content-wrap .services-content .main-description {
+    font-size: 1.3em;
+  }
+  .services .content-wrap .services-content .panels .panel-row .panel-title {
+    padding-top: 5%;
+  }
+  .services
+    .content-wrap
+    .services-content
+    .panels
+    .panel-item:hover
+    .description {
+    padding-top: 1%;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .services .content-wrap .services-content .panels .panel-row .panel-item {
+    width: 80%;
+    margin-bottom: 5%;
+    height: 220px;
+    background-color: #1a1a1a;
+    margin-left: 8%;
+  }
+
+
+  .services .content-wrap .services-content .main-description h6 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 1em;
+    font-family: "open sans", arial, sans-serif;
+  }
+
+  .services
+    .content-wrap
+    .services-content
+    .panels
+    .panel-row
+    .panel-item
+    .description {
+    font-size: 0.6em;
+    padding-top: 0%;
+    text-align: left;
+  }
+
+  .services .content-wrap .services-content .panels .panel-item:hover {
+    background-color: none;
+    transition: none;
+    border-color: none;
+    box-shadow: none;
+    text-transform: none;
+    
+  }
+  .services .content-wrap .services-content .panels .panel-item .panel-title {
+    transition: 1s;
+    bottom: 30%;
+  }
+  .services
+    .content-wrap
+    .services-content
+    .panels
+    .panel-item
+    .panel-title {
+    transition: 1s;
+    bottom: 30%;
+  }
+  .services
+    .content-wrap
+    .services-content
+    .panels
+    .panel-row
+    .panel-item
+    .description {
+      opacity: 1;
+      color: grey;
+      font-size: 0.6em;
+      padding-top: 0%;
+      text-align: left;
+      margin-top: 25%;
+  }
+
+  .services
+  .content-wrap
+  .services-content
+  .panels
+  .panel-item:hover
+  .description {
+    color: grey;
+    text-align: left;
+    font-size: 0.6em;
+}
+
+}
+
+
+@media screen and (max-width: 400px) {
+  .services .content-wrap .services-content .panels .panel-row .panel-item {
+    width: 80%;
+    margin-bottom: 5%;
+    height: 220px;
+    background-color: #1a1a1a;
+    margin-left: 8%;
+  }
+
+
+  .services .content-wrap .services-content .main-description h6 {
+    margin-top: 20px;
+    text-align: center;
+    transition: 1s;
+    margin-bottom: 5%;
+    font-size: 0.5em;
+    font-family: "open sans", arial, sans-serif;
+  }
+
+  .services
+  .content-wrap
+  .services-content
+  .panels
+  .panel-row
+  .panel-item
+  .description {
+    opacity: 1;
+    color: grey;
+    font-size: 0.55em;
+    padding-top: 0%;
+    text-align: left;
+    margin-top: 35%;
+}
+
+.services .content-wrap .services-content .panels .panel-item .panel-title {
+  transition: 1s;
+  bottom: 35%;
+}
+
+.services .content-wrap .services-content .panels .panel-item:hover {
+  background-color: none;
+  transition: none;
+  border-color: none;
+  box-shadow: none;
+  text-transform: none;
+}
+
+.services
+.content-wrap
+.services-content
+.panels
+.panel-item:hover
+.panel-title {
+  padding-bottom:15px;
+}
+
+.services
+.content-wrap
+.services-content
+.panels
+.panel-item:hover
+.description {
+opacity: 1;
+color: grey;
+font-size: 0.50em;
+padding-top: 10%;
+text-align: left;
+}
+
+
+}

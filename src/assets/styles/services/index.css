@@ -1,0 +1,147 @@
+.page-wrapper{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: #121212;
+    box-sizing: border-box;
+}
+
+.body{
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.industry{
+    width: 100%;
+    background: rgba(128, 128, 128, 0.048);
+}
+
+.technology{
+    width: 100%;
+    
+}
+
+.achievement{
+    width: 100%;
+    background: rgba(128, 128, 128, 0.048);
+    
+}
+
+.reason{
+    width: 100%;
+    
+}
+
+.drop-message{
+    width: 100%;
+    min-height: 300px;
+    background:rgba(128, 128, 128, 0.048);
+}
+
+
+.footer{
+    width: 100%;
+}
+
+
+.sub-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: rgba(155, 121, 121, 0.048);
+    height: 50px;
+    padding: 0 30px;
+}
+
+.letf-footer-menu{
+    margin: auto 0;
+    margin-left: 400px;
+    font-size: 15px;
+    color: gray;
+}
+
+.right-footer-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-footer-menu-item{
+    margin: auto 20px;
+    font-size: 15px;
+    color: gray;
+}
+
+
+@media only screen and (min-width: 1160px) {
+    h1 {
+        font-size: 3.5em;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .right-footer-menu-item{
+        font-size: 10px;
+    }
+    .letf-footer-menu{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+   
+    .body{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1160px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    h1 {
+        font-size: 2.8em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .sub-footer{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    h1 {
+        font-size: 2.6em;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 1.7em;
+    }
+}

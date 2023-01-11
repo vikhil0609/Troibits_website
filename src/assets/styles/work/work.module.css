@@ -1,0 +1,145 @@
+.start {
+  margin-top: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+#workmain h1 {
+  font-size: 3em;
+}
+
+#workmain h6 {
+  font-size: 1em;
+  margin-bottom: 10%;
+  line-height: 25px;
+  margin-left: 7%;
+}
+
+#row {
+  display: flex;
+}
+
+.WorkColumn {
+  flex: 33.33%;
+  padding: 2%;
+}
+
+#Worklast h2 {
+  display: block;
+  margin-top: 15%;
+  font-size: 2.1em;
+  font-weight: bold;
+}
+
+#Image {
+  width: 100%;
+  max-width: 100%;
+}
+
+#Image :hover {
+  background-color: red;
+}
+
+.btn {
+  transition: 0.5s;
+  margin-top: 4%;
+  color: #0a5de9;
+  padding: 1.5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-size: 1em;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 0px;
+  border: 2px solid #0a5de9;
+}
+
+.btn:hover {
+  transition: 0.5s;
+  background-color: #0a5de9;
+  color: white;
+  box-shadow: 0 0 5px #0061d0;
+}
+
+@media only screen and (max-width: 1309px) {
+  #workmain br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #row {
+    display: block;
+  }
+  .WorkColumn {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 10%;
+    margin-top: 15%;
+  }
+  #workmain h1 {
+    font-size: 2.5em;
+  }
+  #workmain h6 {
+    font-size: 0.9em;
+  }
+  br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 803px) {
+  #workmain h1 {
+    font-size: 2.1em;
+  }
+
+  #worklast {
+    margin-top: 10%;
+  }
+
+  #Worklast h2 {
+    margin-top: 10%;
+    font-size: 1.7em;
+  }
+  br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 657px) {
+  .start {
+    margin-left: 7%;
+    margin-right: 5%;
+  }
+  #workmain h1 {
+    font-size: 2em;
+  }
+  #workmain h6 {
+    font-size: 0.8em;
+  }
+
+  #Worklast h2 {
+    margin-top: 10%;
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .start {
+    margin-top: 20%;
+    margin-left: 7%;
+    margin-right: 2%;
+  }
+  #workmain h1 {
+    font-size: 1.4em;
+  }
+  #workmain h6 {
+    font-size: 0.7em;
+  }
+
+  #Worklast h2 {
+    padding-top: 20%;
+    font-size: 1.8em;
+  }
+}

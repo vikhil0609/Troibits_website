@@ -1,0 +1,139 @@
+.reason-component {
+  margin-top: 10%;
+  margin-left: 12%;
+  margin-right: 18%;
+  margin-bottom: 20%;
+}
+
+.reason-header {
+  text-align: center;
+}
+.reason-mid1 {
+  margin-bottom: 20%;
+  width: 100%;
+}
+.reason-mid1 img {
+  max-width: 50%;
+  float: left;
+  width: 50%;
+}
+.reason-mid1 .bar1 {
+  width: 100px;
+  height: 2px;
+  background-color: blue;
+  float: right;
+  margin-top: 1%;
+}
+
+.reason-mid1 .reason1-sub {
+  padding-top: 15%;
+  margin-left: 15%;
+  width: 90%;
+  padding-left: 40%;
+  text-align: right;
+}
+
+.reason1-sub h4 {
+  font-size: 1.5em;
+  margin-right: 0;
+}
+
+.reason1-sub h6 {
+  font-size: 1.1em;
+  margin-top: 5%;
+  color: #808080;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.reason-mid2 {
+  margin-top: 20%;
+  width: 100%;
+  padding-bottom: 30%;
+}
+
+.reason-mid2 .reason2-sub {
+  width: 45%;
+  margin-top: 10%;
+  float: left;
+}
+
+.reason2-sub h4 {
+  font-size: 1.6em;
+}
+
+.reason2-sub h6 {
+  font-size: 1.1em;
+  margin-top: 8%;
+  color: #808080;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.bar2 {
+  width: 100px;
+  height: 3px;
+  background-color: blue;
+  float: left;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.reason-mid2 img {
+  max-width: 50%;
+  float: right;
+}
+
+.reason-last {
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 1194px) {
+  .reason-component {
+    margin-left: 5%;
+    margin-right: 8%;
+  }
+  .reason-mid1 .reason1-sub {
+    padding-left: 1%;
+  }
+
+  .reason-mid2 .reason2-sub {
+    width: 50%;
+  }
+  .reason-mid2 img {
+    padding-top: 8%;
+  }
+}
+
+@media screen and (max-width: 897px) {
+  .reason-component {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reason-component {
+    margin-left: 5%;
+  }
+  .reason-mid1 {
+    width: 105%;
+  }
+  .reason-mid1 img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .reason-mid2 img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .reason-mid1 .reason1-sub {
+    padding-top: 10%;
+    text-align: right;
+    width: 100%;
+    padding-right: 15%;
+  }
+
+  .reason-mid2 .reason2-sub {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 1%;
+  }
+}

@@ -1,0 +1,97 @@
+
+.intro{
+    width: 100%;
+    height: 600px;
+    background-color: #1B1B1B;
+    position: relative;
+}
+.intro .intro-top{
+    width: 350px;
+    background-color: #1B1B1B;
+}
+.intro .intro-top::after{
+    left: 100%;
+    border-bottom-color: #1B1B1B;
+}
+
+.slider-wrap{
+    width: calc(100% - 80px);
+    margin-left: 40px;
+}
+.slick-list div{
+    outline: none;
+}
+.slider-item {
+    margin-left: calc(50% - 300px);
+    margin-top: 30px;
+    width: 600px;
+    outline: none;
+}
+.slider-item .user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #333333;
+    float: left;
+}
+.slider-item .user-img img{ width: 100%; }
+
+.slider-item .user-info {
+    float: left;
+    margin-left: 20px;
+    width: calc(100% - 100px);
+}
+.slider-item .user-info .user-detail .user-name{
+    font-size: 26px;
+}
+.slider-item .user-info .user-detail .user-role{
+    font-size: 20px;
+    color: #666666;
+}
+.slider-item .user-info .description{
+    color: #666666;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.intro .slick-slider .slick-dots li button::before {
+    color: white;
+}
+.intro .intro-footer{
+    width: 350px;
+    background-color: #1B1B1B;
+    z-index: 1;
+}
+.intro .intro-footer::before{
+    right: 100%;
+    border-top-color: #1B1B1B;
+}
+
+.intro.port {height: 380px;}
+.intro.port .intro-content {padding-top: 70px;}
+.intro.port .slider-item{margin-top: 0;}
+.intro.port .slider-item .user-img {width: 40px; height: 40px;}
+.intro.port .slider-item .user-info .user-detail .user-name {font-size: 16px;}
+.intro.port .slider-item .user-info .user-detail .user-role {font-size: 14px;}
+.intro.port .slider-item .user-info .description {font-size: 12px; margin-top: 20px; margin-bottom: 20px;}
+
+@media only screen and (max-width: 1000px) {
+    .intro .intro-top{
+        width: 30%;
+    }
+    .intro .intro-footer{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .slider-item{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+/* @media only screen and (max-width: 500px) {
+    .intro {height: 400px;}
+    .slider-item .user-info .description{
+        display: none;
+    }
+} */
