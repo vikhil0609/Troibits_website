@@ -340,8 +340,9 @@
     text-align: center;
   }
   .yolo-content .center-img .yolo-phone-img{
-    left: 35%;
-    width: 120%;
+    text-align: center;
+    width: 140%;
+    margin-left: 10%;
   }
 }
 
